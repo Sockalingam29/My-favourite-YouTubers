@@ -3,7 +3,8 @@ import React, { useState } from "react";
 const youtubers = {
   Education: [{name:"Tanay Pratap",rating:9.5},{name:"Ali Abdaal", rating:8},{name:"Curious Harish", rating:8}],
   Technology: [{name:"Mrwhosetheboss",rating:9.5},{name: "MKBHD",rating:9}],
-  Entertainment: [{name:"MrBeast",rating:8.5},{name: "Micset",rating:8},{name:"Parithabangal",rating:7}]
+  Entertainment: [{name:"MrBeast",rating:8.5},{name: "Micset",rating:8},{name:"Parithabangal",rating:7}],
+  News:[{name:"Polimer news",rating:7},{name:"Madan Gowri",rating:8},{name:"CNBC",rating:8}]
 };
 
 export default function App() {
