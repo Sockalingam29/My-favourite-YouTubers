@@ -29,7 +29,9 @@ export default function App() {
               margin: "1rem 0.3rem",
               cursor: "pointer",
               border: "1px solid black",
-              borderRadius: "0.5rem"
+              borderRadius: "0.5rem",
+              backgroundColor:"#406343",
+              color:"#F3EFCC"
             }}
           >
             {element}
@@ -47,7 +49,8 @@ export default function App() {
                 border: "1px solid black",
                 borderRadius:"0.5rem",
                 margin: "10px 0.3rem",
-                maxWidth: "300px"
+                maxWidth: "300px",
+                backgroundColor:"#406343"
               }}
             >
               <h3>{element.name}</h3>
